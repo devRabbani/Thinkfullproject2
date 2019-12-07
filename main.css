@@ -1,0 +1,52 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  width: 800px;
+  font-size: 0;
+  margin: 50px auto;
+}
+
+.box {
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.green, .blue {
+  height: 200px;
+  width: 50%;
+}
+
+.gray, .black, .orange {
+  height: 300px;
+  width: 33.33%;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.black {
+  background-color: black;
+}
+
+.orange {
+  background-color: orange;
+}
+
+
+
